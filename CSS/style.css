@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+th,td{
+    padding: 1.5vw;
+}
+.menu >nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+.des{
+    background-color:#4D331F ;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 1%;
+}
+.des-img> img{
+    width: 40vw;
+
+
+}
+.des-cnt{
+    color: #F4DDD0;
+    font-size: 4vw;
+    text-align: center;
+    margin: auto;
+}
+
+.shop{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+}
+.shop-offer{
+    border: #A7727D solid 2px ;
+    margin: 1%;
+    height: max-content;
+
+
+}
+
+.shop-offer >img {
+    width:60%;
+    height: 60%;
+    border-radius: 25%;
+    margin-left: 20%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+    margin-top: 2.5%;
+}
+.shop-offer-des{
+    color: #411530;
+    font-size: larger;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: max-content;
+    margin: auto;
+    margin-top: 2.5%;
+    background-color: #3A3845;
+    color: #FBF8F1;
+    padding: 2.5%;
+    font-size: larger;
+}
+
